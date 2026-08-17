@@ -10,9 +10,8 @@ from IstkharMusic.utils.formatters import time_to_seconds
 import aiohttp
 from IstkharMusic import LOGGER
 
-API_URL = "https://shrutibots.site"
-DOWNLOAD_DIR = "downloads"
-
+API_URL = os.environ.get("SHRUTI_API_URL", "https://api.shrutibots.site")
+API_KEY = os.environ.get("SHRUTI_API_KEY", "ShrutiBotsmKSBhBaGhKcXoYLNDLMX")
 
 async def download_song(link: str) -> str:
     video_id = link.split('v=')[-1].split('&')[0] if 'v=' in link else link
