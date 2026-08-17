@@ -26,6 +26,7 @@ LOGGER_ID = int(getenv("LOGGER_ID", -1002060224175))
 
 YTPROXY_URL = getenv("YTPROXY_URL", 'https://tgapi.xbitcode.com')
 YT_API_KEY = getenv("YT_API_KEY" , 'xbit_kp3GFnAvdnFVDV3L6xACy-jbVBE5q5Cd')
+
 ==============================================
 DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 17000))
 SONG_DOWNLOAD_DURATION = int(getenv("SONG_DOWNLOAD_DURATION", "9999999"))
