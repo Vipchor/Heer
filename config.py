@@ -15,8 +15,8 @@ BOT_TOKEN = getenv("BOT_TOKEN", None)
 
 # ======================================================
 OWNER_ID = int(getenv("OWNER_ID", 7980630836))
-OWNER_USERNAME = getenv("OWNER_USERNAME", "Itzz_Istkhar")
-BOT_USERNAME = getenv("BOT_USERNAME", "Sukku_Music_Bot")
+OWNER_USERNAME = getenv("OWNER_USERNAME", "Vip_saiya_Ji")
+BOT_USERNAME = getenv("BOT_USERNAME", "shremusicbot ")
 BOT_NAME = getenv("BOT_NAME", "Sonali Music")
 ASSUSERNAME = getenv("ASSUSERNAME")
 
@@ -24,9 +24,9 @@ ASSUSERNAME = getenv("ASSUSERNAME")
 MONGO_DB_URI = getenv("MONGO_DB_URI", None)
 LOGGER_ID = int(getenv("LOGGER_ID", -1002060224175))
 
-BASE_URL = getenv("API_URL", 'https://BabyAPI.Pro') 
-API_KEY = getenv('API_KEY', 'ADMINBABYX20F56755E70E0694DDCC844F5F1BB465') 
-# ======================================================
+YTPROXY_URL = getenv("YTPROXY_URL", 'https://tgapi.xbitcode.com')
+YT_API_KEY = getenv("YT_API_KEY" , 'xbit_kp3GFnAvdnFVDV3L6xACy-jbVBE5q5Cd')
+==============================================
 DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 17000))
 SONG_DOWNLOAD_DURATION = int(getenv("SONG_DOWNLOAD_DURATION", "9999999"))
 SONG_DOWNLOAD_DURATION_LIMIT = int(getenv("SONG_DOWNLOAD_DURATION_LIMIT", "9999999"))
@@ -49,7 +49,7 @@ GIT_TOKEN = getenv("GIT_TOKEN", None)
 
 # ======================================================
 SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/shree_update")
-SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/+uIBP86AzzcI4ZDBk")
+SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/zone_chatt")
 
 # ======================================================
 SPOTIFY_CLIENT_ID = getenv("SPOTIFY_CLIENT_ID", "1c21247d714244ddbb09925dac565aed")
